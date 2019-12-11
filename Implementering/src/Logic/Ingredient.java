@@ -29,4 +29,18 @@ public class Ingredient {
         this.fat = fat;
         this.carbohydrates = carbohydrates;
     }
+
+    @Override
+    public String toString() {
+        return "Ingredient{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", unit='" + unit + '\'' +
+                ", amount=" + amount +
+                ", calories=" + calories +
+                ", protein=" + protein +
+                ", fat=" + fat +
+                ", carbohydrates=" + carbohydrates +
+                '}';
+    }
 }
