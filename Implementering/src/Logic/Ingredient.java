@@ -13,7 +13,12 @@ public class Ingredient {
     public Ingredient(){}
 
     public Ingredient(int id, String name, double calories, double protein, double fat, double carbohydrates) {
+        this.id = id;
         this.name = name;
+        this.calories = calories;
+        this.protein = protein;
+        this.fat = fat;
+        this.carbohydrates = carbohydrates;
     }
 
     public void specifyIngredient(String name) {
