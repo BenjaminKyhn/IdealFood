@@ -13,12 +13,12 @@
         <Scene>
             <AnchorPane prefHeight="546.0" prefWidth="822.0">
             <children>
-               <ImageView fitHeight="578.0" fitWidth="866.0" layoutX="-6.0" pickOnBounds="true" preserveRatio="true">
+               <ImageView fitHeight="580.0" fitWidth="823.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../../../Resources/Images/2414_Fresh_Mixed_Fruits_1500_Pc_Jigsaw_Puzzle_by_Colorlux_1800x.jpg" />
+                     <Image url="https://cdn.shopify.com/s/files/1/1595/7397/products/2414_Fresh_Mixed_Fruits_1500_Pc_Jigsaw_Puzzle_by_Colorlux_1800x.jpg?v=1551122385" />
                   </image>
                </ImageView>
-               <Button layoutX="321.0" layoutY="507.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="182.0" text="STORE INGREDIENT">
+               <Button fx:id="storeIngredient" layoutX="321.0" layoutY="507.0" mnemonicParsing="false" onAction="#popupStoreIngredient" prefHeight="70.0" prefWidth="182.0" text="STORE INGREDIENT">
                   <font>
                      <Font size="16.0" />
                   </font>
