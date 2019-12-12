@@ -22,10 +22,9 @@ public class IdealFoodController {
         for (int i = 0; i < listOfAllIngredients.size(); i++) {
             Ingredient ingredient = listOfAllIngredients.get(i);
             for (int j = 0; j < selectedIngredients.size(); j++) {
-                if (ingredient.getName().equals(selectedIngredients.get(i)))
+                if (ingredient.getName().equals(selectedIngredients.get(i))) // Sammenligner denne linje ikke navn med objekt???
                     listOfSelectedIngredients.add(ingredient);
             }
         }
-
     }
 }

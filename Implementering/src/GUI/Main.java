@@ -56,6 +56,15 @@ public class Main extends Application {
         stage.show();
     }
 
+//    public void selectIngredients(){
+//        IdealFoodController idealFoodController = new IdealFoodController();
+//        idealFoodController.addIngredient();
+//    }
+    //        IdealFoodController idealFoodController = new IdealFoodController();
+//        checkbox1.setOnAction(actionEvent -> {
+//            idealFoodController.addIngredient("checkbox1");
+//        });
+
     @FXML
     private TableColumn<TableSetterGetter, Logic.Ingredient> Ingredient;
 
