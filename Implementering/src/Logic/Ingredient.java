@@ -30,6 +30,38 @@ public class Ingredient {
         this.carbohydrates = carbohydrates;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getUnit() {
+        return unit;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public double getCalories() {
+        return calories;
+    }
+
+    public double getProtein() {
+        return protein;
+    }
+
+    public double getFat() {
+        return fat;
+    }
+
+    public double getCarbohydrates() {
+        return carbohydrates;
+    }
+
     @Override
     public String toString() {
         return "Ingredient{" +
