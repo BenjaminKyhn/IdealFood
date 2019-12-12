@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.stage.Stage?>
 
-<Stage title="Choose Ingredients" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Stage title="Choose Ingredients" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Main">
     <scene>
         <Scene>
             <AnchorPane prefHeight="435.0" prefWidth="278.0">
@@ -19,7 +19,7 @@
                      <Font size="18.0" />
                   </font>
                </Text>
-               <Button layoutX="86.0" layoutY="370.0" mnemonicParsing="false" text="FIND RECIPES" onAction="">
+               <Button fx:id="findRecipiesButton" layoutX="86.0" layoutY="370.0" mnemonicParsing="false" onAction="#closePopup" text="FIND RECIPES">
                   <font>
                      <Font size="14.0" />
                   </font>

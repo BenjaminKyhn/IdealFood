@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.stage.Stage?>
 
-<Stage title="IdealFood" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Stage title="IdealFood" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Main">
     <scene>
         <Scene>
             <AnchorPane prefHeight="546.0" prefWidth="822.0">
@@ -23,7 +23,7 @@
                      <Font size="16.0" />
                   </font>
                </Button>
-               <Button fx:id="findRecipeButton" alignment="CENTER" layoutX="295.0" layoutY="98.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="226.0" text="FIND RECIPE" textAlignment="CENTER">
+               <Button fx:id="findRecipeButton" alignment="CENTER" layoutX="295.0" layoutY="98.0" mnemonicParsing="false" onAction="#popupChooseIngredients" prefHeight="61.0" prefWidth="226.0" text="FIND RECIPE" textAlignment="CENTER">
                   <font>
                      <Font name="System Bold" size="18.0" />
                   </font>
