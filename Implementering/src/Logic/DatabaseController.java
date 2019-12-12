@@ -47,5 +47,4 @@ public class DatabaseController {
         DatabaseController databaseController = new DatabaseController();
         System.out.println(databaseController.getAllIngredients());
     }
-
 }
